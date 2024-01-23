@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hockey</title>
-    
+    <!-- icon link -->
+    <script src="https://kit.fontawesome.com/e1688c4999.js" crossorigin="anonymous"></script>
 
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,7 +28,47 @@
 </head>
 
 <body class="font-manrope">
-    <Header class="w-full">
+    <Header class="w-full md:container mx-auto">
+        <!-- navbar -->
+        <section>
+            <nav>
+                <div class="navbar bg-base-100">
+                    <div class="navbar-start">
+                        <div class="dropdown">
+                            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M4 6h16M4 12h8m-8 6h16" />
+                                </svg>
+                            </div>
+                            <ul tabindex="0"
+                                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-[#FF4240] rounded-box w-52 text-white">
+                                <li><a>Home</a></li>
+                                <li><a>About</a></li>
+                                <li><a>Pages</a></li>
+                                <li><a>Blog</a></li>
+                                <li><a>Contact</a></li>
+                            </ul>
+                        </div>
+                        <a class="btn btn-ghost text-2xl font-extrabold">Hokey<span class="text-[#FF4240]">'</span>s</a>
+                    </div>
+                    <div class="navbar-center hidden lg:flex">
+                        <ul class="menu menu-horizontal px-1   ">
+                            <li class="hover:text-[#FF4240]"><a>Home</a></li>
+                            <li class="hover:text-[#FF4240]"><a>About</a></li>
+                            <li class="hover:text-[#FF4240]"><a>Pages</a></li>
+                            <li class="hover:text-[#FF4240]"><a>Blog</a></li>
+                            <li class="hover:text-[#FF4240]"><a>Contact</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="navbar-end">
+                        <a class="btn btn-primary text-white">Get Ticket</a>
+                    </div>
+                </div>
+            </nav>
+        </section>
         <!-- banner section -->
         <section>
             <div class="carousel w-full ">
@@ -53,46 +94,333 @@
     </Header>
 
     <main class="">
-<section>
-    <div class="m-20">
-        <hr>
-        <div>
-            <h3 class="text-2xl font-extrabold text-center my-5">Professional Hockeys Club</h3>
-            <p class="text-base font-medium text-center my-5">Dive into the exhilarating world of hockey, where precision meets power on the ice, creating a thrilling symphony of skill, strategy, and teamwork.</p>
-        </div>
-<hr>
+        <section>
+            <div class="m-20">
+                <hr>
+                <div>
+                    <h3 class="text-2xl font-extrabold text-center my-5">Professional Hockeys Club</h3>
+                    <p class="text-base font-medium text-center my-5">Dive into the exhilarating world of hockey, where
+                        precision meets power on the ice, creating a thrilling symphony of skill, strategy, and
+                        teamwork.</p>
+                </div>
+                <hr>
 
-            <div class="grid grid-cols-1 gap-14 my-10 md:grid-cols-2 lg:grid-cols-4 lg:my-28 p-5 lg:gap-20  place-items-center ">
-                <!-- 1st percentage -->
-            
-                <div class="d1 ">
-                    <div class="radial-progress text-red-500" style="--value:87;" role="progressbar">87%</div>
-                    <h3 class="text-base font-semibold my-5">Prayer Facility</h3>
-                    <p class="text-xs text-gray-500">Unlock your potential with a percentage-driven approach to success.</p>
-                </div>
-                <!-- 2nd percentage -->
-                <div class="d2 ">
-                    <div class="radial-progress text-[#49D293]" style="--value:95;" role="progressbar">95%</div>
-                    <h3 class="text-base font-semibold my-5">Prayer Facility</h3>
-                    <p class="text-xs text-gray-500">Unlock your potential with a percentage-driven approach to success.</p>
-                </div>
-                <!-- 3rd -->
-                <div class="d3">
-                    <div class="radial-progress text-yellow-400" style="--value:90; " role="progressbar">90%</div>
-                    <h3 class="text-base font-semibold my-5">Senior Player</h3>
-                    <p class="text-xs text-gray-500">Unlock your potential with a percentage-driven approach to success.</p>
-                </div>
-                <!-- 4th -->
-                <div class="d4">
-                    <div class="radial-progress text-[#4C8DF1]" style="--value:80;" role="progressbar">80%</div>
-                    <h3 class="text-base font-semibold my-5">Training Ground</h3>
-                    <p class="text-xs text-gray-500">Unlock your potential with a percentage-driven approach to success.</p>
+                <div
+                    class="grid grid-cols-1 gap-14 my-10 md:grid-cols-2 lg:grid-cols-4 lg:my-28 p-5 lg:gap-20  place-items-center ">
+                    <!-- 1st percentage -->
+
+                    <div class="d1 ">
+                        <div class="radial-progress text-red-500" style="--value:87;" role="progressbar">87%</div>
+                        <h3 class="text-base font-semibold my-5">Prayer Facility</h3>
+                        <p class="text-xs text-gray-500">Unlock your potential with a percentage-driven approach to
+                            success.</p>
+                    </div>
+                    <!-- 2nd percentage -->
+                    <div class="d2 ">
+                        <div class="radial-progress text-[#49D293]" style="--value:95;" role="progressbar">95%</div>
+                        <h3 class="text-base font-semibold my-5">Prayer Facility</h3>
+                        <p class="text-xs text-gray-500">Unlock your potential with a percentage-driven approach to
+                            success.</p>
+                    </div>
+                    <!-- 3rd -->
+                    <div class="d3">
+                        <div class="radial-progress text-yellow-400" style="--value:90; " role="progressbar">90%</div>
+                        <h3 class="text-base font-semibold my-5">Senior Player</h3>
+                        <p class="text-xs text-gray-500">Unlock your potential with a percentage-driven approach to
+                            success.</p>
+                    </div>
+                    <!-- 4th -->
+                    <div class="d4">
+                        <div class="radial-progress text-[#4C8DF1]" style="--value:80;" role="progressbar">80%</div>
+                        <h3 class="text-base font-semibold my-5">Training Ground</h3>
+                        <p class="text-xs text-gray-500">Unlock your potential with a percentage-driven approach to
+                            success.</p>
+                    </div>
                 </div>
             </div>
-    </div>
 
 
-</section>
+        </section>
+
+        <!-- grid image -->
+        <section>
+            <div class=" sm:m-10 lg:m-28">
+                <hr>
+                <div class="p-4">
+                    <h3 class="text-3xl font-extrabold text-center">Program Sections</h3>
+                    <p class="text-base text-center mt-5">The grid, a foundational structure in design and technology,
+                        provides a systematic framework for organizing and presenting information, fostering clarity and
+                        visual coherence.</p>
+                </div>
+                <hr>
+
+                <div class="grid sm:grid-col-1 lg:grid-rows-2 lg:grid-cols-2 gap-5 my-20 ">
+
+                    <!-- 1st -->
+                    <div class="hero rounded-2xl h-72" style="background-image: url('./Images/2.png');">
+
+                        <div class="hero-content text-center lg:text-left text-white text-neutral-content">
+                            <div class="max-w-md">
+                                <h1 class="mb-3 text-2xl font-extrabold">Junior Program</h1>
+                                <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
+                                    excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                                <button class="btn btn-primary text-white">Register Now !</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- 2nd -->
+                    <div class="hero rounded-2xl h-72" style="background-image: url('./Images/3.png');">
+                        <div class="hero-content text-center lg:text-left text-white text-neutral-content">
+                            <div class="max-w-md">
+                                <h1 class="mb-3 text-2xl font-extrabold">Teenager Program</h1>
+                                <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
+                                    excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                                <button class="btn btn-primary text-white">Register Now !</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- 3rd -->
+                    <div class="hero rounded-2xl h-72 lg:col-span-2" style="background-image: url('./Images/4.png');">
+
+                        <div class="hero-content text-center lg:text-left text-white text-neutral-content">
+                            <div class="max-w-md">
+                                <h1 class="mb-3 text-2xl font-extrabold">Professional Program there</h1>
+                                <p class="mb-5 text-sm">Provident cupiditate voluptatem et in. Quaerat fugiat ut
+                                    assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id
+                                    nisi.</p>
+                                <button class="btn btn-primary text-white">Register Now !</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </section>
+
+        <!-- card section -->
+        <section>
+            <div class="m-5 lg:m-24">
+            <hr>
+            <div class="my-10">
+                <h3 class="text-3xl font-extrabold text-center">Our New Products</h3>
+                <p class="text-base font-medium text-gray-500 text-center p-5">Dive into our card section, where each card tells a unique story. Discover a curated collection that combines elegance and functionality, offering a glimpse into a world of stylish and purposeful design.</p>
+            </div>
+            <hr>
+
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 mt-12">
+                <!-- 1st card -->
+                <div class="flex flex-1 lg:flex-row card items-center bg-base-100 shadow-xl border-2	">
+                    <figure class="px-5 pt-10 lg:pt-0">
+                        <img src="Images/5.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-start text-left">
+                        <div class="flex gap-4">
+                            <div>
+                                <p><i class="fa-solid fa-star text-amber-400"></i> 5.0</p>
+                            </div>
+                            <div>
+                                <p><i class="fa-solid fa-eye"></i> 20</p>
+                            </div>
+                            <div>
+                                <p><i class="fa-regular fa-heart"></i> 200</p>
+                            </div>
+                        </div>
+                        <div>
+                            <h2 class="card-title text-xl font-extrabold">World Cup Flags Football</h2>
+                            <p class="text-sm text-gray-500">If a dog chews shoes whose shoes does he choose.</p>
+                        </div>
+
+                        <div class="flex flex-col lg:flex-row gap-10">
+                            <div>
+                                <h3 class="text-sm font-extrabold text-[#FF4240]">Price - $22.00</h3>
+                            </div>
+                            <div>
+                                <p class="text-sm"><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- 2nd card -->
+                <div class="flex flex-1 lg:flex-row card items-center bg-base-100 shadow-xl border-2	">
+                    <figure class="px-5 pt-10 lg:pt-0">
+                        <img src="Images/6.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-start text-left">
+                        <div class="flex gap-4">
+                            <div>
+                                <p><i class="fa-solid fa-star text-amber-400"></i> 5.0</p>
+                            </div>
+                            <div>
+                                <p><i class="fa-solid fa-eye"></i> 20</p>
+                            </div>
+                            <div>
+                                <p><i class="fa-regular fa-heart"></i> 200</p>
+                            </div>
+                        </div>
+                        <div>
+                            <h2 class="card-title text-xl font-extrabold">World Cup Flags Football</h2>
+                            <p class="text-sm text-gray-500">If a dog chews shoes whose shoes does he choose.</p>
+                        </div>
+
+                        <div class="flex flex-col lg:flex-row gap-10">
+                            <div>
+                                <h3 class="text-sm font-extrabold text-[#FF4240]">Price - $22.00</h3>
+                            </div>
+                            <div>
+                                <p class="text-sm"><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- 3nd card -->
+                <div class="flex flex-1 lg:flex-row card items-center bg-base-100 shadow-xl border-2	">
+                    <figure class="px-5 pt-10 lg:pt-0">
+                        <img src="Images/7.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-start text-left">
+                        <div class="flex gap-4">
+                            <div>
+                                <p><i class="fa-solid fa-star text-amber-400"></i> 5.0</p>
+                            </div>
+                            <div>
+                                <p><i class="fa-solid fa-eye"></i> 20</p>
+                            </div>
+                            <div>
+                                <p><i class="fa-regular fa-heart"></i> 200</p>
+                            </div>
+                        </div>
+                        <div>
+                            <h2 class="card-title text-xl font-extrabold">World Cup Flags Football</h2>
+                            <p class="text-sm text-gray-500">If a dog chews shoes whose shoes does he choose.</p>
+                        </div>
+
+                        <div class="flex flex-col lg:flex-row gap-10">
+                            <div>
+                                <h3 class="text-sm font-extrabold text-[#FF4240]">Price - $22.00</h3>
+                            </div>
+                            <div>
+                                <p class="text-sm"><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- 4th card -->
+                <div class="flex flex-1 lg:flex-row card items-center bg-base-100 shadow-xl border-2	">
+                    <figure class="px-5 pt-10 lg:pt-0">
+                        <img src="Images/8.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-start text-left">
+                        <div class="flex gap-4">
+                            <div>
+                                <p><i class="fa-solid fa-star text-amber-400"></i> 5.0</p>
+                            </div>
+                            <div>
+                                <p><i class="fa-solid fa-eye"></i> 20</p>
+                            </div>
+                            <div>
+                                <p><i class="fa-regular fa-heart"></i> 200</p>
+                            </div>
+                        </div>
+                        <div>
+                            <h2 class="card-title text-xl font-extrabold">World Cup Flags Football</h2>
+                            <p class="text-sm text-gray-500">If a dog chews shoes whose shoes does he choose.</p>
+                        </div>
+
+                        <div class="flex flex-col lg:flex-row gap-10">
+                            <div>
+                                <h3 class="text-sm font-extrabold text-[#FF4240]">Price - $22.00</h3>
+                            </div>
+                            <div>
+                                <p class="text-sm"><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- 5th card -->
+                <div class="flex flex-1 lg:flex-row card items-center bg-base-100 shadow-xl border-2	">
+                    <figure class="px-5 pt-10 lg:pt-0">
+                        <img src="Images/9.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-start text-left">
+                        <div class="flex gap-4">
+                            <div>
+                                <p><i class="fa-solid fa-star text-amber-400"></i> 5.0</p>
+                            </div>
+                            <div>
+                                <p><i class="fa-solid fa-eye"></i> 20</p>
+                            </div>
+                            <div>
+                                <p><i class="fa-regular fa-heart"></i> 200</p>
+                            </div>
+                        </div>
+                        <div>
+                            <h2 class="card-title text-xl font-extrabold">World Cup Flags Football</h2>
+                            <p class="text-sm text-gray-500">If a dog chews shoes whose shoes does he choose.</p>
+                        </div>
+
+                        <div class="flex flex-col lg:flex-row gap-10">
+                            <div>
+                                <h3 class="text-sm font-extrabold text-[#FF4240]">Price - $22.00</h3>
+                            </div>
+                            <div>
+                                <p class="text-sm"><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- 6th card -->
+                <div class="flex flex-1 lg:flex-row card items-center bg-base-100 shadow-xl border-2	">
+                    <figure class="px-5 pt-10 lg:pt-0">
+                        <img src="Images/10.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-start text-left">
+                        <div class="flex gap-4">
+                            <div>
+                                <p><i class="fa-solid fa-star text-amber-400"></i> 5.0</p>
+                            </div>
+                            <div>
+                                <p><i class="fa-solid fa-eye"></i> 20</p>
+                            </div>
+                            <div>
+                                <p><i class="fa-regular fa-heart"></i> 200</p>
+                            </div>
+                        </div>
+                        <div>
+                            <h2 class="card-title text-xl font-extrabold">World Cup Flags Football</h2>
+                            <p class="text-sm text-gray-500">If a dog chews shoes whose shoes does he choose.</p>
+                        </div>
+
+                        <div class="flex flex-col lg:flex-row gap-10">
+                            <div>
+                                <h3 class="text-sm font-extrabold text-[#FF4240]">Price - $22.00</h3>
+                            </div>
+                            <div>
+                                <p class="text-sm"><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
 
     </main>
     <!-- footer section -->
